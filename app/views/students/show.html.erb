@@ -1,0 +1,3 @@
+<h1><%= @student.name %></h1>
+<h4>"<%= @student.score %>"</h4>
+<%= link_to 'Remove', @student, method: :delete, data: { confirm: 'Are you sure?' } %>
